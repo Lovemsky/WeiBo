@@ -11,7 +11,7 @@
 
     <include layout="@layout/home_weiboitem_titlebar" />
 
-    <com.wenming.weiswift.widget.emojitextview.EmojiTextView
+    <com.lovemsky.wwshare.widget.emojitextview.EmojiTextView
         android:id="@+id/mention_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

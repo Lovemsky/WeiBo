@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wenming.weiswift"
+    package="com.lovemsky.wwshare"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -18,7 +18,7 @@
     <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
 
     <application
-        android:name=".app.MyApplication"
+        android:name="com.lovemsky.wwshare.app.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -28,7 +28,7 @@
         android:windowSoftInputMode="adjustResize">
 
         <activity
-            android:name=".app.welcome.activity.WelcomeActivity"
+            android:name="com.lovemsky.wwshare.app.welcome.activity.WelcomeActivity"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
 
             <intent-filter>
@@ -37,52 +37,52 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".app.unlogin.activity.UnLoginActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.unlogin.activity.UnLoginActivity" />
 
-        <activity android:name=".app.home.activity.MainActivity">
+        <activity android:name="com.lovemsky.wwshare.app.home.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".app.settings.activity.SettingSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.settings.activity.SettingSwipeActivity" />
 
-        <activity android:name=".app.imgpreview.ImageDetailsActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.imgpreview.ImageDetailsActivity" />
 
-        <activity android:name=".app.weibodetail.activity.OriginPicTextCommentDetailSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.weibodetail.activity.OriginPicTextCommentDetailSwipeActivity" />
 
-        <activity android:name=".app.weibodetail.activity.RetweetPicTextCommentDetailSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.weibodetail.activity.RetweetPicTextCommentDetailSwipeActivity" />
 
-        <activity android:name=".app.message.mention.activity.MentionSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.message.mention.activity.MentionSwipeActivity" />
 
-        <activity android:name=".app.message.comment.activity.CommentSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.message.comment.activity.CommentSwipeActivity" />
 
-        <activity android:name=".app.myself.myweibo.activity.MyWeiBoSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.myself.myweibo.activity.MyWeiBoSwipeActivity" />
 
-        <activity android:name=".app.discover.hotweibo.HotWeiBoSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.discover.hotweibo.HotWeiBoSwipeActivity" />
 
-        <activity android:name=".app.myself.fans.activity.FansSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.myself.fans.activity.FansSwipeActivity" />
 
-        <activity android:name=".app.myself.focus.activity.FocusSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.myself.focus.activity.FocusSwipeActivity" />
 
-        <activity android:name=".app.profile.activity.ProfileSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.profile.activity.ProfileSwipeActivity" />
 
-        <activity android:name=".app.login.fragment.post.PostSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.login.fragment.post.PostSwipeActivity" />
 
         <activity
-            android:name=".app.login.fragment.post.idea.IdeaSwipeActivity"
+            android:name="com.lovemsky.wwshare.app.login.fragment.post.idea.IdeaSwipeActivity"
             android:windowSoftInputMode="adjustResize" />
 
 
-        <activity android:name=".app.login.fragment.post.picselect.activity.AlbumSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.login.fragment.post.picselect.activity.AlbumSwipeActivity" />
 
-        <activity android:name=".app.unlogin.activity.WebViewActivity" />
-        <activity android:name=".app.settings.accouts.activity.AccoutSwipeActivity" />
-        <activity android:name=".app.myself.collect.activity.CollectSwipeActivity" />
-        <activity android:name=".app.myself.myphoto.activity.MyPhotoSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.unlogin.activity.WebViewActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.settings.accouts.activity.AccoutSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.myself.collect.activity.CollectSwipeActivity" />
+        <activity android:name="com.lovemsky.wwshare.app.myself.myphoto.activity.MyPhotoSwipeActivity" />
 
-        <service android:name=".app.login.fragment.post.PostService" />
+        <service android:name="com.lovemsky.wwshare.app.login.fragment.post.PostService" />
 
         <!-- 登录web界面-->
         <activity
@@ -100,7 +100,7 @@
             android:configChanges="keyboardHidden|orientation" />
 
         <activity
-            android:name=".app.login.activity.BackgroundActivity"
+            android:name="com.lovemsky.wwshare.app.login.activity.BackgroundActivity"
             android:theme="@style/noAnimationTheme" />
 
     </application>

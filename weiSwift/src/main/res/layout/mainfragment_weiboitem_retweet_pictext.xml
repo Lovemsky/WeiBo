@@ -10,7 +10,7 @@
 
     <include layout="@layout/home_weiboitem_titlebar" />
 
-    <com.wenming.weiswift.widget.emojitextview.EmojiTextView
+    <com.lovemsky.wwshare.widget.emojitextview.EmojiTextView
         android:id="@+id/retweet_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -32,7 +32,7 @@
         android:paddingBottom="10dp"
         android:paddingTop="10dp">
 
-        <com.wenming.weiswift.widget.emojitextview.EmojiTextView
+        <com.lovemsky.wwshare.widget.emojitextview.EmojiTextView
             android:id="@+id/origin_nameAndcontent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
