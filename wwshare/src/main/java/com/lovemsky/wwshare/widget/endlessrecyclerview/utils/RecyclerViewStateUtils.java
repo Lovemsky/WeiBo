@@ -1,7 +1,7 @@
 package com.lovemsky.wwshare.widget.endlessrecyclerview.utils;
 
 import android.app.Activity;
-import androidx.appcompat.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 import com.lovemsky.wwshare.widget.endlessrecyclerview.HeaderAndFooterRecyclerViewAdapter;

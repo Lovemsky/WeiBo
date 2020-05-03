@@ -2,8 +2,8 @@ package com.lovemsky.wwshare.app.login.fragment.post.idea.imagelist;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import androidx.appcompat.widget.RecyclerView;
-import androidx.appcompat.widget.RecyclerView.ViewHolder;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

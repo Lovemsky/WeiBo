@@ -3,8 +3,8 @@ package com.lovemsky.wwshare.app.myself.myphoto.activity;
 import android.content.Context;
 import android.os.Bundle;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
-import androidx.appcompat.widget.GridLayoutManager;
-import androidx.appcompat.widget.RecyclerView;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 import com.lovemsky.wwshare.R;

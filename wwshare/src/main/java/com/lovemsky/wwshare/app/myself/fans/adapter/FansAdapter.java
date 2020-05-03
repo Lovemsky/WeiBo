@@ -1,8 +1,8 @@
 package com.lovemsky.wwshare.app.myself.fans.adapter;
 
 import android.content.Context;
-import androidx.appcompat.widget.RecyclerView;
-import androidx.appcompat.widget.RecyclerView.ViewHolder;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

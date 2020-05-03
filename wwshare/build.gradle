@@ -44,28 +44,28 @@ android {
 }
 
 dependencies {
-    compile project(':weiboSDK')
-    compile project(path: ':swipebacklayout')
-    compile project(path: ':sharesdk')
-    compile project(path: ':multiwindow')
+    implementation project(':weiboSDK')
+    implementation project(path: ':swipebacklayout')
+    implementation project(path: ':sharesdk')
+    implementation project(path: ':multiwindow')
     compile files('libs/universal-image-loader-1.9.5.jar')
 
 
 //    compile 'com.android.support:recyclerview-v7:24.2.0'
-    compile 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 //    compile 'com.android.support:appcompat-v7:24.2.0'
-    compile 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
 
 
-    compile 'com.google.code.gson:gson:2.4'
-    compile 'de.hdodenhof:circleimageview:2.0.0'
-    compile 'com.github.wenmingvs:LogReport:1.0.3'
-    compile 'com.cesards.android:cropimageview:1.0.2.1'
-    compile 'com.github.chrisbanes:PhotoView:1.2.6'
-    compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.17'
-    compile 'com.davemorrissey.labs:subsampling-scale-image-view:3.5.0'
-    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.github.wenmingvs:LogReport:1.0.3'
+    implementation 'com.cesards.android:cropimageview:1.0.2.1'
+    implementation 'com.github.chrisbanes:PhotoView:1.2.6'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.1.17'
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.5.0'
+    implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
 
-    compile 'org.greenrobot:eventbus:3.0.0'
-    compile 'com.daimajia.numberprogressbar:library:1.2@aar'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'com.daimajia.numberprogressbar:library:1.2@aar'
 }

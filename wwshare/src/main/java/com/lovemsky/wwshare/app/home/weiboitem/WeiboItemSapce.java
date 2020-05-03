@@ -1,7 +1,7 @@
 package com.lovemsky.wwshare.app.home.weiboitem;
 
 import android.graphics.Rect;
-import androidx.appcompat.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 /**

@@ -1,9 +1,9 @@
 package com.lovemsky.wwshare.widget.endlessrecyclerview;
 
-import androidx.appcompat.widget.GridLayoutManager;
-import androidx.appcompat.widget.LinearLayoutManager;
-import androidx.appcompat.widget.RecyclerView;
-import androidx.appcompat.widget.StaggeredGridLayoutManager;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import android.util.Log;
 import android.view.View;
 

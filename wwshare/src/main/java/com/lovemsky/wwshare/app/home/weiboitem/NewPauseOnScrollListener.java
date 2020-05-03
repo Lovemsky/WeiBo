@@ -1,6 +1,6 @@
 package com.lovemsky.wwshare.app.home.weiboitem;
 
-import androidx.appcompat.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
 
