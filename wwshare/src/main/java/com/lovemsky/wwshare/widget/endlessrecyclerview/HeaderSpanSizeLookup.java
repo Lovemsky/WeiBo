@@ -1,6 +1,6 @@
 package com.lovemsky.wwshare.widget.endlessrecyclerview;
 
-import android.support.v7.widget.GridLayoutManager;
+import androidx.appcompat.widget.GridLayoutManager;
 
 /**
  * Created by cundong on 2015/10/23.

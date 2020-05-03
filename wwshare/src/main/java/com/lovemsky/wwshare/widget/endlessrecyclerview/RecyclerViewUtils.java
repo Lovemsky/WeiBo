@@ -1,6 +1,6 @@
 package com.lovemsky.wwshare.widget.endlessrecyclerview;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.widget.RecyclerView;
 import android.view.View;
 
 /**

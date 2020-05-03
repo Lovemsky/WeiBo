@@ -6,10 +6,10 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.fragment.app.Fragment;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.appcompat.widget.LinearLayoutManager;
+import androidx.appcompat.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -302,7 +302,6 @@ public class HomeFragment extends Fragment implements HomeFragmentView {
     }
 
 
-
     @Override
     public void updateListView(ArrayList<Status> statuselist) {
         mRecyclerView.addOnScrollListener(mOnScrollListener);
@@ -427,7 +426,7 @@ public class HomeFragment extends Fragment implements HomeFragmentView {
      */
     public void hideTopBar() {
         BarManager barManager = new BarManager();
-        barManager.hideTopBar(mTopBar,mContext);
+        barManager.hideTopBar(mTopBar, mContext);
     }
 
 

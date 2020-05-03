@@ -3,6 +3,7 @@ package com.lovemsky.wwshare.app.mvp.model.imp;
 import android.content.Context;
 
 import com.google.gson.Gson;
+import com.lovemsky.wwshare.utils.StringUtil;
 import com.sina.weibo.sdk.auth.Oauth2AccessToken;
 import com.lovemsky.wwshare.app.common.entity.Token;
 import com.lovemsky.wwshare.app.common.entity.list.TokenList;
@@ -38,6 +39,11 @@ public class TokenListModelImp implements TokenListModel {
     }
 
     @Override
+    public void addToken(Context context, Oauth2AccessToken token) {
+        addToken(context, token.getToken(), String.valueOf(token.getExpiresTime()), token.getRefreshToken(), token.getUid());
+    }
+
+    @Override
     public void deleteToken(Context context, String uid) {
         Gson gson = new Gson();
         TokenList tokenList = TokenList.parse(SDCardUtil.get(context, SDCardUtil.getSDCardPath() + "/weiSwift/", "登录列表缓存.txt"));
@@ -68,7 +74,8 @@ public class TokenListModelImp implements TokenListModel {
         for (int i = 0; i < tokenList.tokenList.size(); i++) {
             if (tokenList.tokenList.get(i).uid.equals(uid)) {
                 Token token = tokenList.tokenList.get(i);
-                updateAccessToken(context, token.token, token.expiresIn, token.refresh_token, token.uid);                break;
+                updateAccessToken(context, token.token, token.expiresIn, token.refresh_token, token.uid);
+                break;
             }
         }
     }

@@ -24,7 +24,7 @@
         android:textColor="@color/home_original_weiboitem_font"
         android:textSize="@dimen/home_original_weiboitem_font" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.appcompat.widget.RecyclerView
         android:id="@+id/weibo_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -12,7 +12,7 @@ import android.graphics.BitmapFactory;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
-import android.support.v7.app.NotificationCompat;
+import androidx.appcompat.app.NotificationCompat;
 import android.view.View;
 
 import com.nostra13.universalimageloader.core.DisplayImageOptions;

@@ -1,6 +1,6 @@
 package com.lovemsky.wwshare.app.unlogin.fragment;
 
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 /**
  * Created by wenmingvs on 16/5/10.
