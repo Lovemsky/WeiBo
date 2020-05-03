@@ -6,7 +6,7 @@ android {
     buildToolsVersion '23.0.3'
 
     defaultConfig {
-        applicationId "com.lovemsky.weiswift"
+        applicationId "com.lovemsky.wwshare"
         minSdkVersion 14
         targetSdkVersion 21
     }

@@ -19,12 +19,14 @@ import com.lovemsky.wwshare.app.unlogin.fragment.HomeFragment;
 import com.lovemsky.wwshare.app.unlogin.fragment.MessageFragment;
 import com.lovemsky.wwshare.app.unlogin.fragment.ProfileFragment;
 import com.lovemsky.wwshare.utils.ToastUtil;
+import com.sina.weibo.sdk.auth.WeiboAuthListener;
+import com.sina.weibo.sdk.exception.WeiboException;
 
 
 /**
  * Created by wenmingvs on 16/5/9.
  */
-public class UnLoginActivity extends AppCompatActivity {
+public class UnLoginActivity extends AppCompatActivity implements WeiboAuthListener {
 
     private static final int HOME_FRAGMENT = 0X001;
     private static final int MESSAGE_FRAGMENT = 0X002;
@@ -183,4 +185,18 @@ public class UnLoginActivity extends AppCompatActivity {
         finish();
     }
 
+    @Override
+    public void onComplete(Bundle bundle) {
+
+    }
+
+    @Override
+    public void onWeiboException(WeiboException e) {
+
+    }
+
+    @Override
+    public void onCancel() {
+
+    }
 }
